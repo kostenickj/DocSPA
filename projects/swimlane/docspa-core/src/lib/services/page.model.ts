@@ -4,7 +4,7 @@ import VFile from 'vfile';
 import * as path from 'path';
 
 // todo: rename VPage
-export class Page extends VFile {
+export class Page extends (VFile || null) {
   // todo: move to data
   timestampCached: number;
   notFound: boolean;

@@ -1,0 +1,31 @@
+{
+  "include": [
+    "integration/*.ts",
+    "../node_modules/cypress"
+  ],
+  "compilerOptions": {
+    "baseUrl": "../../",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "allowJs": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "paths": {
+      "@swimlane/docspa-core": [
+        "projects/swimlane/docspa-core/src/public_api"
+      ],
+      "@swimlane/docspa-core/*": [
+        "projects/swimlane/docspa-core/src/*"
+      ]
+    }
+  }
+}

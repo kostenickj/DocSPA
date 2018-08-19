@@ -24,7 +24,7 @@ import { config } from '../docspa.config';
   ],
   providers: [
     Location,
-    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    { provide: LocationStrategy, useClass: HashLocationStrategy }
   ],
   bootstrap: [
     AppComponent

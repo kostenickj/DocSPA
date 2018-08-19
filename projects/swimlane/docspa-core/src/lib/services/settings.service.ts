@@ -52,9 +52,9 @@ export class SettingsService {
       this.sideLoad = [this.sideLoad];
     }
 
-    this.currentTheme = config.theme || {};
+    this.currentTheme = (config && config.theme) || {};
 
-    if (config.themeColor) {
+    if (config && config.themeColor) {
       this.currentTheme['--theme-color'] = config.themeColor;
     }
 
