@@ -9,7 +9,7 @@
       "urls": [
         "/DocSPA/favicon.ico",
         "/DocSPA/index.html",
-        "/DocSPA/main.fbe2f53a0054205db443.js",
+        "/DocSPA/main.097795c79e75bf1d8473.js",
         "/DocSPA/polyfills.e2a4b973d05b2f7eb869.js",
         "/DocSPA/runtime.a66f828dca56eeb90e02.js",
         "/DocSPA/styles.5a0a5c9983d138167f5a.css"
@@ -104,10 +104,10 @@
     "/DocSPA/docs/README.md": "85932b9d517dd21a816280f392d847b19e755ee2",
     "/DocSPA/docs/SUMMARY.md": "38a41d722b7e05d0c4af071b792b1138c3d69fff",
     "/DocSPA/docs/_404.md": "3dc0a103d667a71abc1b3feae143bd923538d30b",
-    "/DocSPA/docs/_coverpage.md": "838b25e92486a7f4530135d7e2590d7c52bacbc0",
+    "/DocSPA/docs/_coverpage.md": "313619903f6f78bbccc77a8e526f1702506c1c5b",
     "/DocSPA/docs/_footer.md": "ff9a938855601b31d3b5b957495bb0aa6bd22889",
     "/DocSPA/docs/_navbar.md": "c4191da3b23739c608e5d8bc6792855687130c12",
-    "/DocSPA/docs/_right_sidebar.md": "a9058eb7223cfe37a386f035a758c53224849505",
+    "/DocSPA/docs/_right_sidebar.md": "e1b9fd060d2a548bfc9a14add6c1d8a07972df9e",
     "/DocSPA/docs/_sidebar.md": "fedc9d4d04136f214f492757a303e1cfc1681ae9",
     "/DocSPA/docs/angular-cli-install.md": "2fd0676774bb7519afba11aceeead96a33126b7a",
     "/DocSPA/docs/assets/2000px-Markdown-mark-solid.svg.png": "3729f6d704339f64b732cace48fd04819b1a6d2f",
@@ -150,8 +150,8 @@
     "/DocSPA/docs/sub/sub/b.md": "1d6095a92b058fa3e41f22d0333e19c35b3a448f",
     "/DocSPA/docs/sub/test.md": "202e7d36b511654b60eacc1bfa4583c3710ad0ad",
     "/DocSPA/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/DocSPA/index.html": "175463a58cd1b508a46e7fe45a971b6627037237",
-    "/DocSPA/main.fbe2f53a0054205db443.js": "31eff26c7cd7f606b3804bca3ce60ebb4910fc09",
+    "/DocSPA/index.html": "c4600e376a443e64e2228ede4edbcdbb5ff44e0d",
+    "/DocSPA/main.097795c79e75bf1d8473.js": "5bab77524b91784fb97df166dcba8f64146636ea",
     "/DocSPA/polyfills.e2a4b973d05b2f7eb869.js": "5dcc9539c61d3d64e005a4b68a42dd5de6f18589",
     "/DocSPA/runtime.a66f828dca56eeb90e02.js": "6816cd4d44a1a4b6373af1cc3798338313f8100c",
     "/DocSPA/styles.5a0a5c9983d138167f5a.css": "7e68239b895be6a470a5b1c965cf4680097f7e67"
