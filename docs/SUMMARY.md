@@ -2,7 +2,6 @@
 * [Quick Start](quickstart)
   * [Angular CLI Install](angular-cli-install)
 * [Content](content)
-* [Customization](customization)
-  * [Config Reference](config)
+* [Modules](modules/)
 * [Content Features](features)
   * [Markdown](markdown)
