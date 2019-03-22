@@ -8,7 +8,7 @@
       "updateMode": "prefetch",
       "urls": [
         "/DocSPA/index.html",
-        "/DocSPA/main.0ee785e517c326f7ebb7.js",
+        "/DocSPA/main.3b18e1d025086f6e0481.js",
         "/DocSPA/polyfills.7f2bcb9f7565f89091d8.js",
         "/DocSPA/runtime.a66f828dca56eeb90e02.js",
         "/DocSPA/styles.9fcd853bc7f7408f2b32.css"
@@ -154,8 +154,8 @@
     "/DocSPA/docs/sub/sub/a.md": "87bbe9234b20cab2bb87e410f9f75d3800c80553",
     "/DocSPA/docs/sub/sub/b.md": "1d6095a92b058fa3e41f22d0333e19c35b3a448f",
     "/DocSPA/docs/sub/test.md": "6c3fc4ed51b1082757e5eac4222c49c2bd0f763e",
-    "/DocSPA/index.html": "2d6b2312541b9b1538ad127696c02901ca4139be",
-    "/DocSPA/main.0ee785e517c326f7ebb7.js": "9fd840616454aa6b9f38fc36e0415fc27f59338c",
+    "/DocSPA/index.html": "5dd6b76159b0463386ad3ce86cbc0c1e770434af",
+    "/DocSPA/main.3b18e1d025086f6e0481.js": "cd2e75bae384b36032d6d7ab24869578b998eed3",
     "/DocSPA/polyfills.7f2bcb9f7565f89091d8.js": "0f233bf7edf9820a826c026db38186f3de3365c2",
     "/DocSPA/runtime.a66f828dca56eeb90e02.js": "6816cd4d44a1a4b6373af1cc3798338313f8100c",
     "/DocSPA/styles.9fcd853bc7f7408f2b32.css": "fe29de116f6fb48bfbd6788ae5cf3b48ca22f08f"
