@@ -1,5 +1,7 @@
 # Adding DocSPA to a angular cli app
 
+!!> Information in the guid may be out of date.  If you are starting a new projetc we recommend looking at the [quick start](quickstart).
+
 0. Generate new Angular app
 
 ```sh
@@ -26,7 +28,7 @@ npm install --save @ngx-loading-bar/core @ngx-loading-bar/http-client @angular/e
 
 2) Add a `docspa.config.ts` to the `src` folder
 
-See [config](config)
+See [DocspaCoreModule](modules#docspacoremodule)
 
 2) Edit `pollyfill.ts`
 
