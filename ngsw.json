@@ -9,7 +9,7 @@
       "urls": [
         "/DocSPA/favicon.ico",
         "/DocSPA/index.html",
-        "/DocSPA/main.82b32fd9507a8591ecfd.js",
+        "/DocSPA/main.b89191c2ec4a783f7089.js",
         "/DocSPA/polyfills.7f2bcb9f7565f89091d8.js",
         "/DocSPA/runtime.a66f828dca56eeb90e02.js",
         "/DocSPA/styles.9fcd853bc7f7408f2b32.css"
@@ -141,7 +141,7 @@
     "/DocSPA/docs/examples/folder/stackblitz.json": "a15e88ac4f281b0db98bbc617db8999fdaa80680",
     "/DocSPA/docs/examples/stackblitz.json": "d60cc9f0826815cab0d78117dd7faf6f493c32a1",
     "/DocSPA/docs/experimental.md": "dfaa58d514f4cb10e8ab40fc31839206b2b15ea9",
-    "/DocSPA/docs/features.md": "c6169735c7469c26771f4e53a925359223d51cf9",
+    "/DocSPA/docs/features.md": "06403d7a118863a167c1ba7c23dd549f121c1f3f",
     "/DocSPA/docs/markdown.md": "49b54782211fd88fd3964a5682546c895edf2af3",
     "/DocSPA/docs/modules.md": "e72816f39819d068c258d302783d43afd2478451",
     "/DocSPA/docs/print.md": "1e1970ada84500a47554d4f1da2c13b022ef763c",
@@ -158,8 +158,8 @@
     "/DocSPA/docs/sub/sub/b.md": "1d6095a92b058fa3e41f22d0333e19c35b3a448f",
     "/DocSPA/docs/sub/test.md": "6c3fc4ed51b1082757e5eac4222c49c2bd0f763e",
     "/DocSPA/favicon.ico": "096d813c6ee821fc57ab25fb45477459d292f550",
-    "/DocSPA/index.html": "487a2d15d23740fcca818a8e3a24f82eb2e67899",
-    "/DocSPA/main.82b32fd9507a8591ecfd.js": "553c2ceda5bb51610fc6147871d4ae56b94e32c9",
+    "/DocSPA/index.html": "f53e45f866f799eb7cb1b56e68f6ff2e129f1841",
+    "/DocSPA/main.b89191c2ec4a783f7089.js": "9d5d008b7050244d5a7d76e40eba1e41417bf5d6",
     "/DocSPA/polyfills.7f2bcb9f7565f89091d8.js": "0f233bf7edf9820a826c026db38186f3de3365c2",
     "/DocSPA/runtime.a66f828dca56eeb90e02.js": "6816cd4d44a1a4b6373af1cc3798338313f8100c",
     "/DocSPA/styles.9fcd853bc7f7408f2b32.css": "fe29de116f6fb48bfbd6788ae5cf3b48ca22f08f"
