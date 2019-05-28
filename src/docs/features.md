@@ -117,27 +117,6 @@ import { config } from '../docspa.config';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-```
-~~~
-
-## Mermaid
-
-~~~markdown { playground }
-```mermaid
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-```
-
-```mermaid
-graph LR
-    A --- B
-    B-->C
-    B-->D
-```
-~~~
-
-i> See [mermaid docs](https://mermaidjs.github.io/) for more details on the supported syntax.
 
 ## Math
 
