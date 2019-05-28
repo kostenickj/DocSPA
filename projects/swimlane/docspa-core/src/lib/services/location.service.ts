@@ -5,6 +5,9 @@ import { join } from '../utils';
 import { resolve } from 'url';
 
 import { SettingsService } from './settings.service';
+import { Inject } from '@angular/core';
+import { APP_BASE_HREF, LocationStrategy } from '@angular/common';
+import { Location } from '@angular/common';
 
 @Injectable({
   providedIn: 'root'
@@ -44,8 +47,27 @@ export class LocationService {
       page = '/';
     }
 
-    const vfile = VFILE({ path: page, cwd: this.root });
+    let vfile;
+    if (page.endsWith(".md")) {
+      vfile = VFILE({ path: page, cwd: this.root });
+    }
+    else if (page.includes(this.settings.baseHref)) {
+      if (page == this.settings.baseHref) {
+        const p = page.replace(this.settings.baseHref, '') + "/";
+        const wd = this.root + this.settings.baseHref;
+        vfile = VFILE({ path: p, cwd: wd });
+      } else {
+        const p = page.replace(this.settings.baseHref, '');
+        const wd = this.root + this.settings.baseHref;
+        vfile = VFILE({ path: p, cwd: wd });
+      }
 
+    }
+    else {
+      const p = page;
+      const wd = this.root + this.settings.baseHref;
+      vfile = VFILE({ path: p, page, cwd: wd });
+    }
     /* if (vfile.path[0] === '/' && vfile.path[1] === '_') {
       vfile.path = this.settings.notFoundPage;
     } */
@@ -73,10 +95,17 @@ export class LocationService {
   /**
    * Return a resolved url relative to the base path
    */
-  prepareLink(href: string, base: string = '') {
-    return LocationService.isAbsolutePath(href) ?
-      href :
-      resolve(base, href);
+  prepareLink(href: string, base: string = '', bUseBaseHref = false) {
+    if (LocationService.isAbsolutePath(href)) {
+      return href;
+    } else {
+      if (this.settings.baseHref !== '/') {
+        const u = resolve(this.settings.baseHref + base, href);
+        return u;
+      }
+      const u = resolve(base, href);
+      return u;
+    }
   }
 
   /**

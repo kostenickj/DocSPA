@@ -18,6 +18,7 @@ export class SettingsService {
 
   coverpage = '';
   basePath = 'docs/';
+  baseHref = '/';
   nameLink = '';
   ext = '.md';
   notFoundPage = '_404.md';
