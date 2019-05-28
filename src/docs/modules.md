@@ -220,50 +220,11 @@ const config = {
   ],
   coverpage: '_coverpage.md',
   plugins: [
-    mermaidHook,
     tabsHook
   ]
 };
 ```
 ~~~
-
-#### Mermaid
-
-~~~markdown { playground }
-```mermaid
-sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
-```
-
-```mermaid
-gantt
-    title A Gantt Diagram
-    dateFormat  YYYY-MM-DD
-    section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
-        section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
-        section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
-```
-
-```mermaid
-graph LR
-    A --- B
-    B-->C
-    B-->D;
-```
-
-~~~
-
-i> See [mermaid docs](https://mermaidjs.github.io/) for more details on the supported syntax.
 
 #### Math
 

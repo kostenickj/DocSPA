@@ -172,12 +172,10 @@ const config = {
   ],
   coverpage: '_coverpage.md',
   plugins: [
-    mermaidHook,
     tabsHook
   ],
   remarkPlugins: [
     ...defaultRemarkPlugins,
-    mermaid,
     prism
   ],
   runtimeModules: [

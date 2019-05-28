@@ -32,10 +32,6 @@ describe('The Features page', () => {
     cy.get('@content').find('pre.language-js > code .line-highlight').should('have.length', 2);
   });
 
-  it('runs other plugins', () => {
-    cy.get('@content').find('.mermaid svg').should('have.length', 2);
-  });
-
   it('has custom elements', () => {
     cy.get('@content').find('md-toc a').should('have.length', 15);
     // cy.get('@content').find('md-include').contains('This is the contents of embed.md');

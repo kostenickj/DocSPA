@@ -18,9 +18,8 @@ import { customBlocksOptions } from './plugins/remark-custom-blocks';
 import { customBlockquotes, customBlockquotesOptions } from './plugins/remark-custom-blockquotes';
 import { shortCodeProps } from './plugins/short-codes';
 import { prism } from './plugins/prism';
-import { mermaid } from './plugins/mermaid';
 
-export { customBlocks, customBlockquotes, prism, mermaid };
+export { customBlocks, customBlockquotes, prism };
 
 export const plugins = [
   frontmatter,
@@ -40,7 +39,6 @@ export const plugins = [
   [ customBlockquotes, customBlockquotesOptions ],
   shortcodes,
   shortCodeProps,
-  mermaid,
   prism
 ];
 
