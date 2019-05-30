@@ -31,7 +31,7 @@ export class DocSPACoreComponent implements OnInit, AfterViewInit, OnDestroy {
 
   contentHeadings: any[];
 
-  @ViewChild('coverMain') coverMain: any;
+  @ViewChild('coverMain', {static: false}) coverMain: any;
 
   private sidebarClose = false;
 
@@ -157,7 +157,7 @@ export class DocSPACoreComponent implements OnInit, AfterViewInit, OnDestroy {
 
       // if the page changes, and no anchor is given, scroll top the top
       if ('anchor' in changes && changes.anchor.currentValue === '') {
-        this.anchor = 'page-top';
+        this.anchor = 'coverPage' in changes ? 'cover-top' : 'content-top';
       }
     }
 
